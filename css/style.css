@@ -1,0 +1,105 @@
+/*
+Pascal Vos
+1422537vos
+24-03-2019
+*/
+
+body 
+{
+    width: 99%;
+    background-color: beige;
+}
+
+figcaption
+{
+    text-align: center;
+    font-size: 12px
+}
+
+#center
+{
+    text-align: center;
+}
+
+img
+{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p
+{
+   text-align: center;
+   font-weight: bold;
+}
+
+#buttons button
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(76, 168, 175);
+    border: 1px solid rgb(80, 180, 175); 
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    width: 100%;
+    display: block; 
+}
+
+#buttons button:not(:last-child) 
+{
+    border-bottom: none;
+}
+
+#buttons button:hover 
+{
+    background-color: #3e8e41;
+}
+
+#explain
+{
+    background-color: rgb(103, 224, 218);
+    padding: .05%;
+    border-radius: 5px;
+    box-shadow: 0 1px 15px 1px rgba(81,77,92,.08);
+}	
+
+#explain #header
+{
+    background-color: rgb(80, 180, 175);
+    padding: .05%;
+    border-radius: 5px;
+    box-shadow: 0 1px 15px 1px rgba(81,77,92,.08);
+}	
+
+#header h1
+{
+    margin-left: 20px;
+    color: #022d53;
+}	
+
+#globalContent 
+{
+    margin-left: 10px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+#content p 
+{
+    margin: 0;
+    margin-left: 20px;
+    text-align: left;
+    color: #0057a3; 
+} 
+
+#svg2
+{
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+    background-color: lightskyblue;    
+}
