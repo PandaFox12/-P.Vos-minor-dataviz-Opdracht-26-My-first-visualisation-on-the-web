@@ -7,7 +7,7 @@ Pascal Vos
 body 
 {
     width: 99%;
-    background-color: beige;
+    background-color: rgb(223, 222, 222);
 }
 
 figcaption
@@ -56,12 +56,12 @@ p
 
 #buttons button:hover 
 {
-    background-color: #3e8e41;
+    background-color: rgb(61, 133, 138);;
 }
 
 #explain
 {
-    background-color: rgb(103, 224, 218);
+    background-color: lightcyan;
     padding: .05%;
     border-radius: 5px;
     box-shadow: 0 1px 15px 1px rgba(81,77,92,.08);
@@ -78,7 +78,6 @@ p
 #header h1
 {
     margin-left: 20px;
-    color: #022d53;
 }	
 
 #globalContent 
@@ -93,7 +92,6 @@ p
     margin: 0;
     margin-left: 20px;
     text-align: left;
-    color: #0057a3; 
 } 
 
 #svg2
@@ -101,5 +99,5 @@ p
     margin: auto;
     margin-bottom: 20px;
     display: block;
-    background-color: lightskyblue;    
+    background-color: rgb(101, 218, 226);;    
 }
